@@ -10,7 +10,6 @@ let links = [{
 }]
 
 let idCount = links.length
-
 const resolvers = {
   Query: {
     info: () => 'This is the Api of Hackernews Clone with GraphQL',
